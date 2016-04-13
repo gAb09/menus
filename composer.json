@@ -1,0 +1,20 @@
+{
+    "name": "gab09/menus",
+    "type": "library",
+    "description": "Gestion de menus basées sur représentation intervallaire dans mysql.",
+    "homepage": "http://www.?????????",
+    "license": "MIT",
+    "authors": [
+        {"name": "Bruno Gabiot", "email": "brunogabiot@confluence09.fr"}
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "laravel/framework": "5.2.29"
+    },
+    "autoload": {
+        "psr-4": {
+            "Menus\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
